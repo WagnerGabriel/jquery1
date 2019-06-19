@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'jquery1';
+  
+Titulo = 'Angular Wallpaper';
+descricao = 'Foto retirada de uma equipe em desenvolvimento de web';
+Seguir = "checked";
+jogador = 'Cristiano Ronaldo';
+reportagem = 'Um dos melhores jogadores do mundo atualmente';
+fifa = 'FIFA 2019';
 }
