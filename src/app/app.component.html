@@ -9,23 +9,17 @@
   </head>
   <body>
     <div class="container">
-      <div class="card" style="width: 18rem;">
-          <div class="card-body">
-            <img src="https://www.bacancytechnology.com/img/angular-imgs/side-bg1.jpg" class="rounded img-fluid float-left" alt="...">
-            <h6 class="card-subtitle mb-2 text-muted">{{Titulo}}</h6>
-            <p class="card-text">{{descricao}}</p>
-            <a href="#" class="card-link">Curtir</a>
-            <input type="checkbox" class="card-link" checked = "true">Seguir
-          </div>
-        </div>
+      <div class="row">
+        <!--inbound property-->
+    <app-photo
+        *ngFor="let f of photos"
+        [url]="f.url"
+        [titulo]="f.titulo"
+        [descricao]="f.descricao">
+      </app-photo>
+  
+     </div>
+    
     </div>
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://olhardigital.com.br/uploads/acervo_imagens/2018/09/r16x9/20180911163906_1200_675.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">{{jogador}}</h5>
-          <p class="card-text">{{reportagem}}</p>
-          <a href="#" class="btn btn-primary">{{fifa}}</a>
-        </div>
-      </div>
   </body>
 </html>
