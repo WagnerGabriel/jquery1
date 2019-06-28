@@ -4,11 +4,14 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Senac Pic</title>
+ <title>Senac Pic</title>
+ 
   </head>
   <body>
     <div class="container">
+      <div class="row">
+        <router-outlet></router-outlet>
+      </div>
       <div class="row">
         <!--inbound property-->
     <app-photo
@@ -17,9 +20,18 @@
         [titulo]="f.titulo"
         [descricao]="f.descricao">
       </app-photo>
+      
   
      </div>
     
     </div>
+    <tr>
+      <app-usuario>
+        <th>Nome= <routerlink></routerlink></th>
+        <th>Sobrenome<routerlink></routerlink></th> 
+        <th>Idade</th>
+      </tr>
+    </app-usuario>
+    </table>
   </body>
 </html>

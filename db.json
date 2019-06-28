@@ -4,21 +4,21 @@
         "id": 1,
         "titulo":"FOTO 1",
         "alt":"angular",
-        "url":"https://img.alicdn.com/imgextra/i1/6000000007540/TB24gJkuqSWBuNjSsrbXXa0mVXa_!!6000000007540-0-tbvideo.jpg",
+        "url":"https://cdn.pixabay.com/photo/2013/03/19/18/23/utah-95032_960_720.jpg",
         "descricao":"mULHER"
     },
     {
         "id": 2,
         "titulo":"FOTO 2",
         "alt":"angular",
-        "url":"https://img.alicdn.com/imgextra/i1/6000000007540/TB24gJkuqSWBuNjSsrbXXa0mVXa_!!6000000007540-0-tbvideo.jpg",
+        "url":"https://cdn.pixabay.com/photo/2014/10/22/18/04/freerider-498473__340.jpg",
         "descricao":"mULHER"
     },
  
     {"id": 3,
         "titulo":"FOTO 3",
        " alt":"angular",
-        "url":"https://img.alicdn.com/imgextra/i1/6000000007540/TB24gJkuqSWBuNjSsrbXXa0mVXa_!!6000000007540-0-tbvideo.jpg",
+        "url":"https://cdn.pixabay.com/photo/2013/02/09/04/23/swimmers-79592__340.jpg",
         "descricao":"MULHER"
     }
 ],
